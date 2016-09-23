@@ -1,4 +1,5 @@
 function speak( ){
-  var userInput = $("#speak").val();
+  var userInput = $("#input").val();
   console.log("userInput is " + speak);
+  $("#chat-area").text(userInput)
 };
